@@ -7,6 +7,7 @@ All of the tests have been written for you, so all you'll need to do is run them
 If any of the tests errors are unclear, take a look at what the test is running within `test/carTest.js`
 
 <br>
+
 ## Getting Started
 
 * Fork and clone this repository
