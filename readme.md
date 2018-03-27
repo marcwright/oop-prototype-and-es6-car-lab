@@ -1,4 +1,4 @@
-# Prototype Body Shop
+# Prototype + ES6 Classes Body Shop
 
 The idea of this lab is to get you comfortable with Object Oriented Programming (OOP) and introduce you to Test Driven Development (TDD) in JavaScript. By the end you should be comfortable working with objects and writing prototypes.
 
@@ -6,22 +6,24 @@ All of the tests have been written for you, so all you'll need to do is run them
 
 If any of the tests errors are unclear, take a look at what the test is running within `test/carTest.js`
 
+<br>
 ## Getting Started
 
 * Fork and clone this repository
 * Run `npm install` to install dependencies
 * `npm test` - run test suite
-* `npm run lint:js` - lint JS
+
+<br>
 
 ## Submission
 
-To submit, create a pull request as before. Additionally, your submission will be checked automatically using a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) service called Travis CI. Travis CI will do the following to check your code:
+Fork and clone this repo. Push to your repo and submit a pull request when you're done.
 
-* Run `npm install` on Travis's servers
-* Run `npm run lint:js` to check your code styling
-* Run `npm test` to check if your tests pass
+**You only need to add code to `src/Car.js`**  Run the tests and make sure they all pass. You should have **13** `...success` messages after running your code.  Your successful code should look like so:
 
-Make sure to **run these commands locally first** to verify your correctness. You can see the progress of the Travis CI check by going to your pull request, or looking at the [Travis CI build page for this repo](https://travis-ci.org/WDI-SEA/oop-prototype-car/pull_requests)
+![](https://i.imgur.com/w60WywC.png)
+
+<br>
 
 ##Requirements
 
@@ -94,6 +96,13 @@ Implement the following methods:
 
 **NOTE:** When deciding if there are enough seats available, remember that the driver takes up 1 seat, but is NOT counted as a passenger in passengerCount(). You can assume the driver is the owner.
 
+<br>
+
+## ES6 Classes
+
+Once you successfully complete the phases and requirements above it's time to refactor into an ES6 Class!
+
+Comment out the code you created above. I've provided starter code for a Car class. Start at Phase I and refactor your code into an ES6 class. The tests will work the same.
 
 ---
 
