@@ -44,7 +44,7 @@ Your `Car` should meet the following requirements:
   * `previousOwners`
     * should be initialized to an empty array, `[]`.
   * `owner`
-    * should be initialized to `manufacturer`.
+    * should be initialized to 'manufacturer'.
   * `running`
     * should be initialized to `false`.
 * We should be able to do the following with our car:
